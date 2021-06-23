@@ -2804,17 +2804,18 @@ var templateObject_1$K;
 
 var baseColors = {
     failure: "#ED4B9E",
-    primary: "#BCAE0F",
-    primaryBright: "#BCAE0F",
-    primaryDark: "#BCAE0F",
+    primary: "#f9f9f9",
+    primaryBright: "#294436",
+    primaryDark: "#f9f9f9",
     secondary: "#294436",
     success: "#31D0AA",
     warning: "#FFB237",
+    sec: "#BCAE0F"
 };
 var brandColors = {
     binance: "#F0B90B",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#67c388", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#BCAE0F", input: "#eeeaf4", tertiary: "#67c388", text: "#ffffff", textDisabled: "#BDC2C4", textSubtle: "#FFFFFF", borderColor: "#E9EAEB", card: "#348451", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#67c388", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#BCAE0F", input: "#eeeaf4", tertiary: "#67c388", text: "#E6EFEA", textDisabled: "#BDC2C4", textSubtle: "#FFFFFF", borderColor: "#E9EAEB", card: "#348451", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
 var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#9A6AFF", background: "#348451", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#353547", text: "#E6EFEA", textDisabled: "#666171", textSubtle: "#FFFFFF", borderColor: "#524B63", card: "#2A513C", gradients: {
@@ -2832,7 +2833,7 @@ var _a$2, _b;
 var PRIMARY = variants.PRIMARY, SECONDARY = variants.SECONDARY, TERTIARY = variants.TERTIARY, TEXT = variants.TEXT, DANGER = variants.DANGER, SUBTLE = variants.SUBTLE, SUCCESS = variants.SUCCESS;
 var light$1 = (_a$2 = {},
     _a$2[PRIMARY] = {
-        background: lightColors.primary,
+        background: lightColors.sec,
         backgroundActive: lightColors.primaryDark,
         backgroundHover: lightColors.primaryBright,
         border: 0,
