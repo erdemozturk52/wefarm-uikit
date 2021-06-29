@@ -2215,19 +2215,19 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "https://t.me",
+                href: "https://t.me/wefarmfinance",
             },
         ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/",
+        href: "https://twitter.com/WeFarmTokenBSC",
     },
     {
         label: "Reddit",
         icon: "RedditIcon",
-        href: "https://www.reddit.com/",
+        href: "https://www.reddit.com/r/WeFarmToken/",
     },
 ];
 var MENU_HEIGHT = 64;
